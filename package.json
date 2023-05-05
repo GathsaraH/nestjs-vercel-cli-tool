@@ -1,6 +1,6 @@
 {
   "name": "nest-vercel-cli",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
   "bin": {
     "nestjs-vercel": "./dist/index.cjs"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GathsaraH/nestjs-vercel-cli-tool"
+  },  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,6 +24,6 @@
   },
   "devDependencies": {
     "@types/node": "^18.16.3",
-    "typescript": "^4.4.4"
+    "typescript": "^4.9.5"
   }
 }
