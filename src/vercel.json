@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "your-project-name",
+  "builds": [{ "src": "package.json", "user": "@vercel/node" }],
+  "routers":[
+    {
+        "src":"/(.*)","dest":"/index"
+    }
+  ]
+}
